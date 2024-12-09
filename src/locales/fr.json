@@ -1,0 +1,91 @@
+{
+  "message": {
+    "unlock": {
+      "question": {
+        "answerLabel": "Réponse",
+        "wrongAnswer": "Mauvaise réponse !",
+        "showAnswer": "Afficher la réponse"
+      },
+      "password": {
+        "noPassword": "Vous n'avez pas encore défini de mot de passe ! Allez dans les paramètres pour en définir un.",
+        "goToSettings": "Aller aux paramètres",
+        "enterPassword": "Entrer le mot de passe",
+        "wrongPassword": "Mauvais mot de passe !"
+      },
+      "click": "{{ clicksLeft }} clics pour déverrouiller"
+    },
+    "blockItems": {
+      "regexNote": "Remarque : Si vous n'êtes pas familier avec Regex (expressions régulières), vous pouvez ignorer cette page.",
+      "wordNote": "Remarque : Évitez d'utiliser des lettres seules ou des mots courts (par ex. 'a'), car cela bloquera tous les sites contenant la lettre 'a'.",
+      "groupLabel": "Entrez un nom pour le nouveau groupe de sites web (ex : E-Commerce)",
+      "addNewItem": "Ajouter un site web",
+      "removeGroup": "Supprimer le groupe",
+      "invalidWebsite": "Supprimer le site web"
+    },
+    "options": {
+      "blockByWebsite": "Bloquer par site web",
+      "blockByWord": "Bloquer avec un mot",
+      "blockByRegex": "Bloquer avec Regex",
+      "settings": "Paramètres",
+      "about": "À propos",
+      "settingsTab": {
+        "deactivation": {
+          "title": "Paramètres de désactivation",
+          "note": "Remarque : Cette fonctionnalité est conçue pour rendre la désactivation plus difficile, vous encourageant ainsi à rester concentré et à continuer de travailler.",
+          "radio": {
+            "none": "Aucun",
+            "question": "Répondre à une question",
+            "questionLabel": "Nombre d'essais avant d'afficher la réponse",
+            "password": "Mot de passe",
+            "passwordTooltip": "Vous devrez entrer le mot de passe à chaque fois que vous accédez aux paramètres.",
+            "click": "Cliquer sur un bouton",
+            "clickTooltip": "Nécessite de cliquer plusieurs fois sur un bouton pour déverrouiller l'extension.",
+            "clickLabel": "Nombre de clics requis pour déverrouiller"
+          }
+        },
+        "schedule": {
+          "title": "Planning de travail",
+          "titleTooltip": "Bloque les sites web pendant les jours et heures de travail spécifiés.",
+          "note": "Remarque : Pour activer ce paramètre, activez l'outil et définissez vos horaires/jours de travail préférés.",
+          "isActive": "Actif ?",
+          "from": "De :",
+          "to": "À :",
+          "daysLabel": "Jours",
+          "days": {
+            "sunday": "Dimanche",
+            "monday": "Lundi",
+            "tuesday": "Mardi",
+            "wednesday": "Mercredi",
+            "thursday": "Jeudi",
+            "friday": "Vendredi",
+            "saturday": "Samedi"
+          }
+        },
+        "showImages": "Afficher les images",
+        "resetData": "Réinitialiser les données"
+      },
+      "aboutTab": {
+        "title": "À propos de l'extension",
+        "description1": "Stay Focused est une extension Chrome open source conçue pour bloquer les sites web distrayants, tels que les plateformes de médias sociaux.",
+        "description2": "Le concept est simple : vous commencez à travailler, pour vous retrouver à faire défiler les réseaux sociaux comme Facebook pendant 30 minutes sans vous en rendre compte. Cette extension affiche une image de rappel pour vous aider à revenir au travail.",
+        "developedBy": "Développé par",
+        "contributing": "Intéressé à contribuer ?",
+        "visitGithub": "Visitez notre dépôt GitHub open source.",
+        "githubRepo": "Dépôt GitHub"
+      }
+    },
+    "popup": {
+      "focusModeEnabled": "Le mode de concentration est activé et vous avez défini un mécanisme de verrouillage pour le déverrouiller.",
+      "activateFocusMode": "Activer le mode de concentration ?",
+      "website": "Site web :",
+      "button": {
+        "unlock": "Déverrouiller",
+        "addWebsite": "Ajouter un site web"
+      }
+    },
+    "shared": {
+      "socialMediaShare": "Vous aimez utiliser Stay Focused ? Partagez-le avec vos amis !",
+      "buyMeACoffee": "Vous aimez rester concentré ? Offrez-moi un café pour soutenir les mises à jour et vous aider à rester sur la bonne voie !"
+    }
+  }
+}

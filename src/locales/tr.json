@@ -1,0 +1,91 @@
+{
+  "message": {
+    "unlock": {
+      "question": {
+        "answerLabel": "Cevap",
+        "wrongAnswer": "Yanlış cevap!",
+        "showAnswer": "Cevabı göster"
+      },
+      "password": {
+        "noPassword": "Henüz bir şifre belirlemediniz! Ayarlara giderek bir şifre belirleyin.",
+        "goToSettings": "Ayarlar'a Git",
+        "enterPassword": "Şifreyi Girin",
+        "wrongPassword": "Yanlış şifre!"
+      },
+      "click": "{{ clicksLeft }} tıklama ile kilidi aç"
+    },
+    "blockItems": {
+      "regexNote": "Not: Regex (Düzenli İfadeler) ile tanışık değilseniz, bu sayfayı atlayabilirsiniz.",
+      "wordNote": "Not: Tek harfler veya kısa kelimeler (örn. 'a') kullanmaktan kaçının, çünkü bu, içinde 'a' harfi geçen tüm siteleri engelleyecektir.",
+      "groupLabel": "Yeni web sitesi grubu için bir ad girin (örn: E-Ticaret)",
+      "addNewItem": "Web Sitesi Ekle",
+      "removeGroup": "Grubu Kaldır",
+      "invalidWebsite": "Web Sitesini Kaldır"
+    },
+    "options": {
+      "blockByWebsite": "Web Sitesine Göre Engelle",
+      "blockByWord": "Kelime Kullanarak Engelle",
+      "blockByRegex": "Regex Kullanarak Engelle",
+      "settings": "Ayarlar",
+      "about": "Hakkında",
+      "settingsTab": {
+        "deactivation": {
+          "title": "Devre Dışı Bırakma Ayarları",
+          "note": "Not: Bu özellik, devre dışı bırakmayı biraz zorlaştırmak için tasarlanmıştır ve böylece odaklanmanıza ve çalışmaya devam etmenize yardımcı olur.",
+          "radio": {
+            "none": "Hiçbiri",
+            "question": "Bir Soruyu Yanıtla",
+            "questionLabel": "Cevap gösterilmeden önceki deneme sayısı",
+            "password": "Şifre",
+            "passwordTooltip": "Ayarları her açışınızda şifre girmeniz gerekecek.",
+            "click": "Bir Düğmeye Tıkla",
+            "clickTooltip": "Eklentiyi kilidini açmak için bir düğmeye birden fazla kez tıklamanız gerekiyor.",
+            "clickLabel": "Kilit açmak için gereken tıklama sayısı"
+          }
+        },
+        "schedule": {
+          "title": "Çalışma Programı",
+          "titleTooltip": "Belirtilen çalışma günleri ve saatlerinde web sitelerini engeller.",
+          "note": "Not: Bu ayarı etkinleştirmek için aracı aktif hale getirip tercih ettiğiniz çalışma saatlerini/günlerini ayarlayın.",
+          "isActive": "Aktif mi?",
+          "from": "Başlangıç:",
+          "to": "Bitiş:",
+          "daysLabel": "Günler",
+          "days": {
+            "sunday": "Pazar",
+            "monday": "Pazartesi",
+            "tuesday": "Salı",
+            "wednesday": "Çarşamba",
+            "thursday": "Perşembe",
+            "friday": "Cuma",
+            "saturday": "Cumartesi"
+          }
+        },
+        "showImages": "Görüntüleri Göster",
+        "resetData": "Verileri Sıfırla"
+      },
+      "aboutTab": {
+        "title": "Eklenti Hakkında",
+        "description1": "Stay Focused, sosyal medya platformları gibi dikkat dağıtan web sitelerini engellemek için tasarlanmış açık kaynaklı bir Chrome uzantısıdır.",
+        "description2": "Kavram basit: Çalışmaya başlar ve kendinizi 30 dakika boyunca Facebook gibi sosyal medyada gezinirken bulabilirsiniz. Bu uzantı, işe dönmenize yardımcı olacak bir hatırlatma görseli gösterir.",
+        "developedBy": "Geliştiren",
+        "contributing": "Katkıda bulunmak ister misiniz?",
+        "visitGithub": "Açık kaynak GitHub depomuzu ziyaret edin.",
+        "githubRepo": "GitHub Deposu"
+      }
+    },
+    "popup": {
+      "focusModeEnabled": "Odak modu etkin ve kilidi açmak için bir mekanizma belirlediniz.",
+      "activateFocusMode": "Odak Modunu Etkinleştir?",
+      "website": "Web sitesi:",
+      "button": {
+        "unlock": "Kilidi Aç",
+        "addWebsite": "Web Sitesi Ekle"
+      }
+    },
+    "shared": {
+      "socialMediaShare": "Stay Focused kullanmaktan keyif alıyor musunuz? Arkadaşlarınızla paylaşın!",
+      "buyMeACoffee": "Odaklanmayı seviyor musunuz? Güncellemeleri desteklemek ve sizi odakta tutmak için bana bir kahve ısmarlayın!"
+    }
+  }
+}

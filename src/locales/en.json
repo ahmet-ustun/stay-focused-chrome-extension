@@ -1,8 +1,91 @@
 {
   "message": {
-    "blockByWebsite": "Block by Website",
-    "contribute": "Interested in contributing?",
-    "visitRepo": "Visit our open-source GitHub repository.",
-    "githubRepo": "GitHub Repository"
+    "unlock": {
+      "question": {
+        "answerLabel": "Answer",
+        "wrongAnswer": "Wrong answer!",
+        "showAnswer": "Show answer"
+      },
+      "password": {
+        "noPassword": "You haven't set a password yet! go to setting to set it.",
+        "goToSettings": "Go to Settings",
+        "enterPassword": "Enter Password",
+        "wrongPassword": "Wrong Password!"
+      },
+      "click": "{{ clicksLeft }} clicks to unlock"
+    },
+    "blockItems": {
+      "regexNote": "Note: If you're unfamiliar with Regex (Regular Expressions), you can skip this page.",
+      "wordNote": "Note: Avoid using single letters or short words (e.g., 'a'), as this will block all websites containing the letter 'a'.",
+      "groupLabel": "Enter a name for the new website group(ex: E-Commerce)",
+      "addNewItem": "Add Website",
+      "removeGroup": "Remove Group",
+      "invalidWebsite": "Remove Website"
+    },
+    "options": {
+      "blockByWebsite": "Block By Website",
+      "blockByWord": "Block Using a Word",
+      "blockByRegex": "Block Using Regex",
+      "settings": "Settings",
+      "about": "About",
+      "settingsTab": {
+        "deactivation": {
+          "title": "Deactivation Settings",
+          "note": "Note: This feature is designed to make deactivation take some effort, encouraging you to stay focused and keep working",
+          "radio": {
+            "none": "None",
+            "question": "Answering a Question",
+            "questionLabel": "Number of tries before showing answer",
+            "password": "Password",
+            "passwordTooltip": "You’ll need to enter the password each time you access the settings.",
+            "click": "Click a Button",
+            "clickTooltip": "Requires clicking a button multiple times to unlock the extension.",
+            "clickLabel": "Number of clicks required to unlock"
+          }
+        },
+        "schedule": {
+          "title": "Work Schedule",
+          "titleTooltip": "Blocks websites during the specified working days and hours.",
+          "note": "Note: To enable this setting, activate the tool and set your preferred working hours/days.",
+          "isActive": "Active?",
+          "from": "From:",
+          "to": "To:",
+          "daysLabel": "Days",
+          "days": {
+            "sunday": "Sunday",
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday"
+          }
+        },
+        "showImages": "Show Images",
+        "resetData": "Reset Data"
+      },
+      "aboutTab": {
+        "title": "About The Extension",
+        "description1": "Stay Focused is an open-source Chrome extension designed to block distracting websites, such as social media platforms.",
+        "description2": "The concept is simple: you might start working, only to find yourself scrolling through social media like Facebook for 30 minutes without realizing it. This extension displays a reminder image to help you get back to work.",
+        "developedBy": "Developed By",
+        "contributing": "Interested in contributing?",
+        "visitGithub": "Visit our open-source GitHub repository.",
+        "githubRepo": "Github Repository"
+      }
+    },
+    "popup": {
+      "focusModeEnabled": "Focus mode is enabled, and you have set lock mechanism to unlock",
+      "activateFocusMode": "Activate Focus Mode?",
+      "website": "Website:",
+      "button": {
+        "unlock": "Unlock",
+        "addWebsite": "Add Website"
+      }
+    },
+    "shared": {
+      "socialMediaShare": "Enjoy using Stay Focused? Share it with your friends!",
+      "buyMeACoffee": "Love staying focused? Buy me a coffee to support updates and keep you on track!"
+    }
   }
 }

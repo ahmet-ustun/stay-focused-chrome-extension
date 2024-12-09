@@ -1,0 +1,91 @@
+{
+  "message": {
+    "unlock": {
+      "question": {
+        "answerLabel": "Risposta",
+        "wrongAnswer": "Risposta errata!",
+        "showAnswer": "Mostra risposta"
+      },
+      "password": {
+        "noPassword": "Non hai ancora impostato una password! Vai alle impostazioni per impostarla.",
+        "goToSettings": "Vai alle impostazioni",
+        "enterPassword": "Inserisci la password",
+        "wrongPassword": "Password errata!"
+      },
+      "click": "{{ clicksLeft }} clic per sbloccare"
+    },
+    "blockItems": {
+      "regexNote": "Nota: Se non hai familiarità con Regex (espressioni regolari), puoi saltare questa pagina.",
+      "wordNote": "Nota: Evita di usare lettere singole o parole brevi (es. 'a'), poiché bloccherà tutti i siti web contenenti la lettera 'a'.",
+      "groupLabel": "Inserisci un nome per il nuovo gruppo di siti web (es: E-Commerce)",
+      "addNewItem": "Aggiungi sito web",
+      "removeGroup": "Rimuovi gruppo",
+      "invalidWebsite": "Rimuovi sito web"
+    },
+    "options": {
+      "blockByWebsite": "Blocca per sito web",
+      "blockByWord": "Blocca con una parola",
+      "blockByRegex": "Blocca con Regex",
+      "settings": "Impostazioni",
+      "about": "Informazioni",
+      "settingsTab": {
+        "deactivation": {
+          "title": "Impostazioni di disattivazione",
+          "note": "Nota: Questa funzione è progettata per rendere la disattivazione più difficile, incoraggiandoti a rimanere concentrato e continuare a lavorare.",
+          "radio": {
+            "none": "Nessuno",
+            "question": "Rispondere a una domanda",
+            "questionLabel": "Numero di tentativi prima di mostrare la risposta",
+            "password": "Password",
+            "passwordTooltip": "Dovrai inserire la password ogni volta che accedi alle impostazioni.",
+            "click": "Cliccare un pulsante",
+            "clickTooltip": "Richiede di cliccare più volte su un pulsante per sbloccare l'estensione.",
+            "clickLabel": "Numero di clic richiesti per sbloccare"
+          }
+        },
+        "schedule": {
+          "title": "Orario di lavoro",
+          "titleTooltip": "Blocca i siti web durante i giorni e le ore di lavoro specificati.",
+          "note": "Nota: Per abilitare questa impostazione, attiva lo strumento e imposta le tue ore/giorni di lavoro preferiti.",
+          "isActive": "Attivo?",
+          "from": "Da:",
+          "to": "A:",
+          "daysLabel": "Giorni",
+          "days": {
+            "sunday": "Domenica",
+            "monday": "Lunedì",
+            "tuesday": "Martedì",
+            "wednesday": "Mercoledì",
+            "thursday": "Giovedì",
+            "friday": "Venerdì",
+            "saturday": "Sabato"
+          }
+        },
+        "showImages": "Mostra immagini",
+        "resetData": "Reimposta dati"
+      },
+      "aboutTab": {
+        "title": "Informazioni sull'estensione",
+        "description1": "Stay Focused è un'estensione open-source per Chrome progettata per bloccare siti web distraenti, come le piattaforme di social media.",
+        "description2": "Il concetto è semplice: potresti iniziare a lavorare, solo per trovarti a scorrere i social media come Facebook per 30 minuti senza accorgertene. Questa estensione mostra un'immagine promemoria per aiutarti a tornare al lavoro.",
+        "developedBy": "Sviluppato da",
+        "contributing": "Interessato a contribuire?",
+        "visitGithub": "Visita il nostro repository GitHub open-source.",
+        "githubRepo": "Repository GitHub"
+      }
+    },
+    "popup": {
+      "focusModeEnabled": "La modalità di concentrazione è attiva e hai impostato un meccanismo di blocco per sbloccarla.",
+      "activateFocusMode": "Attivare la modalità di concentrazione?",
+      "website": "Sito web:",
+      "button": {
+        "unlock": "Sblocca",
+        "addWebsite": "Aggiungi sito web"
+      }
+    },
+    "shared": {
+      "socialMediaShare": "Ti piace usare Stay Focused? Condividilo con i tuoi amici!",
+      "buyMeACoffee": "Ami rimanere concentrato? Offrimi un caffè per supportare gli aggiornamenti e mantenerti in carreggiata!"
+    }
+  }
+}

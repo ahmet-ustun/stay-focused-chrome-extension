@@ -1,0 +1,91 @@
+{
+  "message": {
+    "unlock": {
+      "question": {
+        "answerLabel": "Respuesta",
+        "wrongAnswer": "¡Respuesta incorrecta!",
+        "showAnswer": "Mostrar respuesta"
+      },
+      "password": {
+        "noPassword": "¡Aún no has configurado una contraseña! Ve a los ajustes para establecer una.",
+        "goToSettings": "Ir a ajustes",
+        "enterPassword": "Ingresar contraseña",
+        "wrongPassword": "¡Contraseña incorrecta!"
+      },
+      "click": "{{ clicksLeft }} clics para desbloquear"
+    },
+    "blockItems": {
+      "regexNote": "Nota: Si no estás familiarizado con Regex (expresiones regulares), puedes omitir esta página.",
+      "wordNote": "Nota: Evita usar letras individuales o palabras cortas (por ejemplo, 'a'), ya que esto bloqueará todos los sitios web que contengan la letra 'a'.",
+      "groupLabel": "Introduce un nombre para el nuevo grupo de sitios web (ej.: Comercio Electrónico)",
+      "addNewItem": "Añadir sitio web",
+      "removeGroup": "Eliminar grupo",
+      "invalidWebsite": "Eliminar sitio web"
+    },
+    "options": {
+      "blockByWebsite": "Bloquear por sitio web",
+      "blockByWord": "Bloquear con una palabra",
+      "blockByRegex": "Bloquear con Regex",
+      "settings": "Ajustes",
+      "about": "Acerca de",
+      "settingsTab": {
+        "deactivation": {
+          "title": "Ajustes de desactivación",
+          "note": "Nota: Esta función está diseñada para que desactivar requiera esfuerzo, animándote a mantenerte concentrado y seguir trabajando.",
+          "radio": {
+            "none": "Ninguno",
+            "question": "Responder una pregunta",
+            "questionLabel": "Número de intentos antes de mostrar la respuesta",
+            "password": "Contraseña",
+            "passwordTooltip": "Deberás ingresar la contraseña cada vez que accedas a los ajustes.",
+            "click": "Hacer clic en un botón",
+            "clickTooltip": "Requiere hacer clic varias veces en un botón para desbloquear la extensión.",
+            "clickLabel": "Número de clics necesarios para desbloquear"
+          }
+        },
+        "schedule": {
+          "title": "Horario de trabajo",
+          "titleTooltip": "Bloquea sitios web durante los días y horas de trabajo especificados.",
+          "note": "Nota: Para habilitar esta configuración, activa la herramienta y establece tus horarios/días de trabajo preferidos.",
+          "isActive": "¿Activo?",
+          "from": "De:",
+          "to": "A:",
+          "daysLabel": "Días",
+          "days": {
+            "sunday": "Domingo",
+            "monday": "Lunes",
+            "tuesday": "Martes",
+            "wednesday": "Miércoles",
+            "thursday": "Jueves",
+            "friday": "Viernes",
+            "saturday": "Sábado"
+          }
+        },
+        "showImages": "Mostrar imágenes",
+        "resetData": "Restablecer datos"
+      },
+      "aboutTab": {
+        "title": "Acerca de la extensión",
+        "description1": "Stay Focused es una extensión de Chrome de código abierto diseñada para bloquear sitios web que distraen, como las plataformas de redes sociales.",
+        "description2": "El concepto es simple: podrías comenzar a trabajar, solo para encontrarte desplazándote por las redes sociales como Facebook durante 30 minutos sin darte cuenta. Esta extensión muestra una imagen de recordatorio para ayudarte a volver al trabajo.",
+        "developedBy": "Desarrollado por",
+        "contributing": "¿Interesado en contribuir?",
+        "visitGithub": "Visita nuestro repositorio de GitHub de código abierto.",
+        "githubRepo": "Repositorio de GitHub"
+      }
+    },
+    "popup": {
+      "focusModeEnabled": "El modo de concentración está habilitado, y has configurado un mecanismo de bloqueo para desbloquear.",
+      "activateFocusMode": "¿Activar el modo de concentración?",
+      "website": "Sitio web:",
+      "button": {
+        "unlock": "Desbloquear",
+        "addWebsite": "Añadir sitio web"
+      }
+    },
+    "shared": {
+      "socialMediaShare": "¿Te gusta usar Stay Focused? ¡Compártelo con tus amigos!",
+      "buyMeACoffee": "¿Te encanta mantenerte concentrado? ¡Invítame un café para apoyar las actualizaciones y mantenerte en el buen camino!"
+    }
+  }
+}
