@@ -158,7 +158,7 @@ export default {
 }
 
 .md-drawer {
-  width: 20%;
+  width: min-content;
   max-width: calc(100vw - 125px);
 }
 
