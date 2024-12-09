@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>
-      Enjoy using Stay Focused? Share it with your friends!
+      {{ $t('message.shared.socialMediaShare') }}
     </p>
     <div class="social-media-btns">
       <facebook-button

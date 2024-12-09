@@ -1,14 +1,14 @@
 <template>
   <div>
     <md-field class="enter-website-field">
-      <label>Add a new item to block</label>
+      <label>{{ $t('message.blockItems.addNewItem') }}</label>
       <md-input
         @keyup.enter="handleEnterWebsite"
         v-model="siteData.siteUrl"
       ></md-input>
     </md-field>
     <span class="md-error" v-if="siteData.siteUrl !== '' && !isValidBlockItem"
-      >Invalid Website</span
+      >{{ $t('message.blockItems.invalidWebsite') }}</span
     >
   </div>
 </template>

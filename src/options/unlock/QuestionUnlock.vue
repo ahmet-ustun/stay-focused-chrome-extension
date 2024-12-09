@@ -2,7 +2,7 @@
   <div>
     <h3>{{ randomQuestion.text }}</h3>
     <md-field>
-      <label>Answer</label>
+      <label>{{ $t('message.unlock.question.answerLabel') }}</label>
       <md-input @keyup.enter="handleUnlock" v-model="answer"></md-input>
     </md-field>
     <md-snackbar
@@ -11,12 +11,12 @@
       :md-active.sync="showErrorMessage"
       md-persistent
     >
-      <span>Wrong answer!</span>
+      <span>{{ $t('message.unlock.question.wrongAnswer') }}</span>
       <md-button
         v-if="numberOfTries >= lockSettings.questionNumberOfTries"
         class="md-primary"
         @click="showAnswer"
-        >Show answer</md-button
+        >{{ $t('message.unlock.question.showAnswer') }}</md-button
       >
     </md-snackbar>
   </div>

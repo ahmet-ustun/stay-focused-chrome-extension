@@ -47,7 +47,7 @@
           @click.native="$emit('delete-sites-group')"
           class="md-raised "
         >
-          Remove Group
+          {{ $t("message.blockItems.removeGroup") }}
         </md-button>
       </md-card-actions>
     </md-card>

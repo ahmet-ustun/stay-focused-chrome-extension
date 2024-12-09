@@ -8,17 +8,17 @@
       <shared-card>
         <div class="main-row center" v-if="isLocked && active">
           <p>
-            Focus mode is enabled, and you have set lock mechanism to unlock
+            {{ $t('message.popup.focusModeEnabled') }}
           </p>
           <md-button
             id="unlock-btn"
             class="md-raised md-accent"
             @click.native="openOptionsPage"
-            >Unlock
+            >{{ $t('message.popup.button.unlock') }}
           </md-button>
         </div>
         <div class="main-row" v-else>
-          <p><b>Activate Focus Mode?</b></p>
+          <p><b>{{ $t('message.popup.activateFocusMode') }}</b></p>
           <p>
             <md-switch v-model="active" @change="saveActive"></md-switch>
           </p>
@@ -26,13 +26,13 @@
       </shared-card>
       <shared-card v-if="isValidUrl">
         <div class="main-row">
-          <div><b>Website: </b>{{ this.websiteName }}</div>
+          <div><b>{{ $t('message.popup.website') }}</b> {{ this.websiteName }}</div>
           <div v-if="!websiteIsAddedBefore">
             <md-button
               @click.native="addCurrentWebsite"
               class="md-raised md-accent"
             >
-              Add Website
+              {{ $t('message.popup.button.addWebsite') }}
             </md-button>
           </div>
           <md-badge

@@ -30,21 +30,21 @@
             @click="selectTab('block-by-website-tab')"
           >
             <md-icon>move_to_inbox</md-icon>
-            <span class="md-list-item-text">Block By website</span>
+            <span class="md-list-item-text">{{ $t('message.options.blockByWebsite') }}</span>
           </md-list-item>
           <md-list-item
             :class="{ 'selected-tab': isSelectedTab('block-by-word-tab') }"
             @click="selectTab('block-by-word-tab')"
           >
             <md-icon>sticky_note_2</md-icon>
-            <span class="md-list-item-text">Block Using a Word</span>
+            <span class="md-list-item-text">{{ $t('message.options.blockByWord') }}</span>
           </md-list-item>
           <md-list-item
             :class="{ 'selected-tab': isSelectedTab('block-by-regex-tab') }"
             @click="selectTab('block-by-regex-tab')"
           >
             <md-icon>spellcheck</md-icon>
-            <span class="md-list-item-text">Block Using Regex</span>
+            <span class="md-list-item-text">{{ $t('message.options.blockByRegex') }}</span>
           </md-list-item>
 
           <md-list-item
@@ -52,7 +52,7 @@
             @click="selectTab('settings-tab')"
           >
             <md-icon>settings</md-icon>
-            <span class="md-list-item-text">Settings</span>
+            <span class="md-list-item-text">{{ $t('message.options.settings') }}</span>
           </md-list-item>
 
           <md-list-item
@@ -60,7 +60,7 @@
             @click="selectTab('about-tab')"
           >
             <md-icon>info</md-icon>
-            <span class="md-list-item-text">About</span>
+            <span class="md-list-item-text">{{ $t('message.options.about') }}</span>
           </md-list-item>
         </md-list>
       </md-app-drawer>
