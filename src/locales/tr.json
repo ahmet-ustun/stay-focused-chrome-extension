@@ -23,6 +23,8 @@
       "invalidWebsite": "Web Sitesini Kaldır"
     },
     "options": {
+      "active": "Aktif",
+      "inactive": "Pasif",
       "blockByWebsite": "Web Sitesine Göre Engelle",
       "blockByWord": "Kelime Kullanarak Engelle",
       "blockByRegex": "Regex Kullanarak Engelle",

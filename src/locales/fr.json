@@ -23,6 +23,8 @@
       "invalidWebsite": "Supprimer le site web"
     },
     "options": {
+      "active": "Actif",
+      "inactive": "Inactif",
       "blockByWebsite": "Bloquer par site web",
       "blockByWord": "Bloquer avec un mot",
       "blockByRegex": "Bloquer avec Regex",
