@@ -87,7 +87,8 @@
     },
     "shared": {
       "socialMediaShare": "Vous aimez utiliser Stay Focused ? Partagez-le avec vos amis !",
-      "buyMeACoffee": "Vous aimez rester concentré ? Offrez-moi un café pour soutenir les mises à jour et vous aider à rester sur la bonne voie !"
+      "buyMeACoffee": "Vous aimez rester concentré ? Offrez-moi un café pour soutenir les mises à jour et vous aider à rester sur la bonne voie !",
+      "keepMeFocused": "Gardez-moi concentré"
     }
   }
 }
