@@ -14,8 +14,9 @@
         <span class="md-title">Stay Focused</span>
         <div class="md-toolbar-section-end">
           <md-switch v-model="active">
-            {{ active ? "Active" : "Inactive" }}
+            {{ active ? $t('message.options.active') : $t('message.options.inactive') }}
           </md-switch>
+          <language-switcher />
         </div>
       </md-app-toolbar>
 
@@ -83,6 +84,7 @@ import BlockByRegexTab from "./BlockItemTabs/BlockByRegexTab";
 import { localStorage } from "../chromeApiHelpers";
 import UnlockPage from "./unlock/UnlockPage";
 import SocialMediaShare from "../sharedComponents/SocialMediaShare";
+import LanguageSwitcher from "../sharedComponents/LanguageSwitcher";
 
 export default {
   name: "App",
@@ -93,7 +95,8 @@ export default {
     SettingsTab,
     BlockByWebsiteTab,
     BlockByWordTab,
-    BlockByRegexTab
+    BlockByRegexTab,
+    LanguageSwitcher
   },
 
   mounted() {
