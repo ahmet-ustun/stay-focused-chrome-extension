@@ -93,7 +93,9 @@
     },
     "defaults": {
       "socialMediaSites": "Social-Media-Seiten",
-      "videoSites": "Videoseiten"
+      "videoSites": "Videoseiten",
+      "blockedByWord": "Wortblockierung",
+      "blockedByRegex": "Blockiert mit Regex"
     }
   }
 }

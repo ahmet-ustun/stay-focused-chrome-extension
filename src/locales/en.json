@@ -93,7 +93,9 @@
     },
     "defaults": {
       "socialMediaSites": "Social Media Sites",
-      "videoSites": "Video Sites"
+      "videoSites": "Video Sites",
+      "blockedByWord": "Blocked Using a Word",
+      "blockedByRegex": "Blocked Using Regex"
     }
   }
 }

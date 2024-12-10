@@ -93,7 +93,9 @@
     },
     "defaults": {
       "socialMediaSites": "Sosyal Medya Siteleri",
-      "videoSites": "Video Siteleri"
+      "videoSites": "Video Siteleri",
+      "blockedByWord": "Bir Kelime Kullanılarak Engellendi",
+      "blockedByRegex": "Regex Kullanılarak Engellendi"
     }
   }
 }
