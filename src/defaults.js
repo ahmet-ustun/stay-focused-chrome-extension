@@ -1,6 +1,6 @@
 import {
   getSiteGroupStructure,
-  getSiteStructure
+  getSiteStructure,
 } from "./dataHelpers/SitesGroup";
 
 export let settingsDefault = {
@@ -8,15 +8,15 @@ export let settingsDefault = {
     startTime: "08:00 AM",
     endTime: "05:00 PM",
     days: ["1", "2", "3", "4", "5"], // Monday to Thursday
-    enableWorkHours: false
+    enableWorkHours: false,
   },
   allowFunnyGoBackImages: true,
   lock: {
     type: "click-button" /*types are: question,click-button, password, none*/,
     password: "",
     questionNumberOfTries: 3,
-    clickButtonCounts: 8 // how many times the user has to click the button to unlock
-  }
+    clickButtonCounts: 8, // how many times the user has to click the button to unlock
+  },
 };
 
 export let websitesListDefault = [
@@ -25,15 +25,15 @@ export let websitesListDefault = [
     getSiteStructure("twitter.com"),
     getSiteStructure("x.com"),
     getSiteStructure("instagram.com"),
-    getSiteStructure("linkedin.com")
+    getSiteStructure("linkedin.com"),
   ]),
   getSiteGroupStructure("message.defaults.videoSites", false, [
     getSiteStructure("youtube.com"),
     getSiteStructure("netflix.com"),
-    getSiteStructure("dailymotion.com")
+    getSiteStructure("dailymotion.com"),
   ]),
   getSiteGroupStructure("message.defaults.blockedByWord", true, [], "word"),
-  getSiteGroupStructure("message.defaults.blockedByRegex", true, [], "regex")
+  getSiteGroupStructure("message.defaults.blockedByRegex", true, [], "regex"),
 ];
 
 export let activeDefault = false;

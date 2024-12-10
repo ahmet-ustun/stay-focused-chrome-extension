@@ -4,7 +4,7 @@
       <md-card-header class="card-header">
         <div class="md-title">{{ $t(sitesGroup.groupName) }}</div>
         <md-switch
-          class="enable-group-switch "
+          class="enable-group-switch"
           v-model="sitesGroup.groupEnabled"
           @change="$emit('store-websites')"
         >
@@ -13,7 +13,7 @@
       <md-card-content>
         <add-block-item-to-list
           :block-type="sitesGroup.blockType"
-          v-on:add-new-website="data => $emit('add-new-website', data)"
+          v-on:add-new-website="(data) => $emit('add-new-website', data)"
         />
         <md-list class="md-dense">
           <md-list-item v-for="(site, siteIndex) in sitesGroup.sitesList">
@@ -45,7 +45,7 @@
       <md-card-actions class="md-alignment-right" v-if="allowDelete">
         <md-button
           @click.native="$emit('delete-sites-group')"
-          class="md-raised "
+          class="md-raised"
         >
           {{ $t("message.blockItems.removeGroup") }}
         </md-button>
@@ -66,20 +66,20 @@ export default {
   props: {
     sitesGroup: {
       type: Object,
-      required: true
+      required: true,
     },
     allowDelete: {
       type: Boolean,
-      default: true
-    }
+      default: true,
+    },
   },
 
   computed: {},
   methods: {
     truncateSiteUrl(siteUrl) {
       return truncateText(siteUrl, 15);
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -23,8 +23,8 @@ export default {
     return {
       clicksLeft: this.lockSettings.clickButtonCounts,
       buttonPositionStyle: {
-        textAlign: "center"
-      }
+        textAlign: "center",
+      },
     };
   },
   methods: {
@@ -41,8 +41,8 @@ export default {
         availablePositions[
           Math.floor(Math.random() * availablePositions.length)
         ];
-    }
-  }
+    },
+  },
 };
 </script>
 

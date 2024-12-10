@@ -11,17 +11,21 @@
     <unlock-page v-else-if="isLocked" v-on:unlock="handleUnlock" />
     <md-app v-else>
       <md-app-toolbar class="md-primary">
-        <span class="md-title">{{ $t('message.stayFocused') }}</span>
+        <span class="md-title">{{ $t("message.stayFocused") }}</span>
         <div class="md-toolbar-section-end">
           <md-switch v-model="active">
-            {{ active ? $t('message.options.active') : $t('message.options.inactive') }}
+            {{
+              active
+                ? $t("message.options.active")
+                : $t("message.options.inactive")
+            }}
           </md-switch>
         </div>
       </md-app-toolbar>
 
       <md-app-drawer md-permanent="full">
         <md-toolbar class="md-transparent" md-elevation="0">
-          <span><img src="../images/logo-red.png"/></span>
+          <span><img src="../images/logo-red.png" /></span>
         </md-toolbar>
 
         <md-list>
@@ -30,21 +34,27 @@
             @click="selectTab('block-by-website-tab')"
           >
             <md-icon>move_to_inbox</md-icon>
-            <span class="md-list-item-text">{{ $t('message.options.blockByWebsite') }}</span>
+            <span class="md-list-item-text">{{
+              $t("message.options.blockByWebsite")
+            }}</span>
           </md-list-item>
           <md-list-item
             :class="{ 'selected-tab': isSelectedTab('block-by-word-tab') }"
             @click="selectTab('block-by-word-tab')"
           >
             <md-icon>sticky_note_2</md-icon>
-            <span class="md-list-item-text">{{ $t('message.options.blockByWord') }}</span>
+            <span class="md-list-item-text">{{
+              $t("message.options.blockByWord")
+            }}</span>
           </md-list-item>
           <md-list-item
             :class="{ 'selected-tab': isSelectedTab('block-by-regex-tab') }"
             @click="selectTab('block-by-regex-tab')"
           >
             <md-icon>spellcheck</md-icon>
-            <span class="md-list-item-text">{{ $t('message.options.blockByRegex') }}</span>
+            <span class="md-list-item-text">{{
+              $t("message.options.blockByRegex")
+            }}</span>
           </md-list-item>
 
           <md-list-item
@@ -52,7 +62,9 @@
             @click="selectTab('settings-tab')"
           >
             <md-icon>settings</md-icon>
-            <span class="md-list-item-text">{{ $t('message.options.settings') }}</span>
+            <span class="md-list-item-text">{{
+              $t("message.options.settings")
+            }}</span>
           </md-list-item>
 
           <md-list-item
@@ -60,7 +72,9 @@
             @click="selectTab('about-tab')"
           >
             <md-icon>info</md-icon>
-            <span class="md-list-item-text">{{ $t('message.options.about') }}</span>
+            <span class="md-list-item-text">{{
+              $t("message.options.about")
+            }}</span>
           </md-list-item>
         </md-list>
 
@@ -97,7 +111,7 @@ export default {
     BlockByWebsiteTab,
     BlockByWordTab,
     BlockByRegexTab,
-    LanguageSwitcher
+    LanguageSwitcher,
   },
 
   mounted() {
@@ -110,7 +124,7 @@ export default {
       active: false,
       lockType: "none",
       isLocked: false,
-      loading: true
+      loading: true,
     };
   },
   methods: {
@@ -128,23 +142,23 @@ export default {
       this.active = false;
     },
     loadData() {
-      localStorage.get("active").then(active => {
+      localStorage.get("active").then((active) => {
         this.active = active;
       });
-      localStorage.get("settings").then(settings => {
+      localStorage.get("settings").then((settings) => {
         this.lockType = settings.lock.type;
         this.isLocked =
           this.lockType !== "none" &&
           (this.active === true || this.lockType === "password");
       });
-    }
+    },
   },
   computed: {},
   watch: {
     active() {
       localStorage.set("active", this.active);
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -170,7 +184,7 @@ export default {
 }
 
 .md-list {
-    flex: 1;
+  flex: 1;
 }
 
 /*/////////////*/

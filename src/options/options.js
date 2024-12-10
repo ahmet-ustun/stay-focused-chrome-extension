@@ -12,6 +12,6 @@ Vue.use(VueMaterial);
 /* eslint-disable no-new */
 new Vue({
   el: "#app",
-  render: h => h(App),
-  i18n
+  render: (h) => h(App),
+  i18n,
 });

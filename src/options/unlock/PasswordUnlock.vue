@@ -3,13 +3,13 @@
     <div class="md-layout">
       <div class="md-layout-item">
         <div v-if="this.lockSettings.password === ''">
-          <p>{{ $t('message.unlock.password.noPassword') }}</p>
-          <md-button class="md-raised md-accent" @click="$emit('unlock')"
-            >{{ $t('message.unlock.password.goToSettings') }}</md-button
-          >
+          <p>{{ $t("message.unlock.password.noPassword") }}</p>
+          <md-button class="md-raised md-accent" @click="$emit('unlock')">{{
+            $t("message.unlock.password.goToSettings")
+          }}</md-button>
         </div>
         <md-field v-else>
-          <label>{{ $t('message.unlock.password.enterPassword') }}</label>
+          <label>{{ $t("message.unlock.password.enterPassword") }}</label>
           <md-input
             @keyup.enter="handleUnlock"
             v-model="password"
@@ -25,7 +25,7 @@
       :md-active.sync="showErrorMessage"
       md-persistent
     >
-      <span>{{ $t('message.unlock.password.wrongPassword') }}</span>
+      <span>{{ $t("message.unlock.password.wrongPassword") }}</span>
     </md-snackbar>
   </div>
 </template>
@@ -40,7 +40,7 @@ export default {
   data() {
     return {
       password: "",
-      showErrorMessage: false
+      showErrorMessage: false,
     };
   },
   methods: {
@@ -53,8 +53,8 @@ export default {
       } else {
         this.showErrorMessage = true;
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

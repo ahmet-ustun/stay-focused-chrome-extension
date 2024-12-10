@@ -5,7 +5,7 @@
     :allow-delete-groups="false"
   >
     <template v-slot:note>
-      {{ $t('message.blockItems.regexNote') }}
+      {{ $t("message.blockItems.regexNote") }}
     </template>
   </block-item-base-tab>
 </template>
@@ -15,7 +15,7 @@ import BlockItemBaseTab from "./BlockItemBaseTab";
 
 export default {
   name: "BlockByRegexTab",
-  components: { BlockItemBaseTab }
+  components: { BlockItemBaseTab },
 };
 </script>
 

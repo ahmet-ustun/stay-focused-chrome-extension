@@ -19,7 +19,7 @@ const messages = {
   tr,
 };
 
-const savedLocale = localStorage.getItem('language') || 'en';
+const savedLocale = localStorage.getItem("language") || "en";
 
 const i18n = new VueI18n({
   locale: savedLocale,
@@ -29,8 +29,8 @@ const i18n = new VueI18n({
 
 // Watch for changes in the locale
 i18n.watchLocale = () => {
-  i18n._vm.$watch('locale', (newLocale) => {
-    localStorage.setItem('language', newLocale);
+  i18n._vm.$watch("locale", (newLocale) => {
+    localStorage.setItem("language", newLocale);
   });
 };
 

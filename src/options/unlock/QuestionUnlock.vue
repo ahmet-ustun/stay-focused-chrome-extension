@@ -2,7 +2,7 @@
   <div>
     <h3>{{ $t(randomQuestion.text) }}</h3>
     <md-field>
-      <label>{{ $t('message.unlock.question.answerLabel') }}</label>
+      <label>{{ $t("message.unlock.question.answerLabel") }}</label>
       <md-input @keyup.enter="handleUnlock" v-model="answer"></md-input>
     </md-field>
     <md-snackbar
@@ -11,12 +11,12 @@
       :md-active.sync="showErrorMessage"
       md-persistent
     >
-      <span>{{ $t('message.unlock.question.wrongAnswer') }}</span>
+      <span>{{ $t("message.unlock.question.wrongAnswer") }}</span>
       <md-button
         v-if="numberOfTries >= lockSettings.questionNumberOfTries"
         class="md-primary"
         @click="showAnswer"
-        >{{ $t('message.unlock.question.showAnswer') }}</md-button
+        >{{ $t("message.unlock.question.showAnswer") }}</md-button
       >
     </md-snackbar>
   </div>
@@ -75,11 +75,11 @@ export default {
         { text: "message.questions.text14", answer: "1914" },
         { text: "message.questions.text15", answer: "1918" },
         { text: "message.questions.text16", answer: "1939" },
-        { text: "message.questions.text17", answer: "1945" }
+        { text: "message.questions.text17", answer: "1945" },
       ],
       selectedQuestionIndex: 0,
       showErrorMessage: false,
-      numberOfTries: 0
+      numberOfTries: 0,
     };
   },
   methods: {
@@ -97,13 +97,13 @@ export default {
     },
     showAnswer() {
       this.answer = this.randomQuestion.answer;
-    }
+    },
   },
   computed: {
     randomQuestion() {
       return this.questions[this.selectedQuestionIndex];
-    }
-  }
+    },
+  },
 };
 </script>
 

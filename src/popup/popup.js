@@ -8,7 +8,7 @@ import {
   MdSwitch,
   MdButton,
   MdCard,
-  MdBadge
+  MdBadge,
 } from "vue-material/dist/components";
 import "vue-material/dist/vue-material.min.css";
 import "vue-material/dist/theme/default.css";
@@ -23,6 +23,6 @@ Vue.use(MdBadge);
 /* eslint-disable no-new */
 new Vue({
   el: "#app",
-  render: h => h(App),
-  i18n
+  render: (h) => h(App),
+  i18n,
 });
