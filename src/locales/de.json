@@ -112,6 +112,25 @@
       "text12": "Wenn ich sehe, dass du immer wieder versuchst, eine blockierte Website zu öffnen",
       "text13": "wenn du die Lektion nicht lernst und wieder deine Arbeit unterbrichst",
       "text14": "Mein Gesicht, wenn ich eine Website für dich blockiere"
+    },
+    "questions": {
+      "text1": "Wie viele Monate hat ein Jahr? (nur die Zahl)",
+      "text2": "Wie viele Tage hat eine Woche? (nur die Zahl)",
+      "text3": "Wie viele Tage hat ein Jahr? (nur die Zahl)",
+      "text4": "Wie viele Farben hat ein Regenbogen?",
+      "text5": "Wie viele Seiten hat ein Dreieck? (nur die Zahl)",
+      "text6": "Was ist 2+2?",
+      "text7": "Was ist 10+15?",
+      "text8": "Was ist 10 x 9?",
+      "text9": "Was ist 1+1+1+1+1+1?",
+      "text10": "Was ist 2x2 + 1?",
+      "text11": "Was ist 123 - 33?",
+      "text12": "Was ist 10 x (5-3)?",
+      "text13": "Was ist 350 * 0?",
+      "text14": "Wann begann der Erste Weltkrieg?",
+      "text15": "Wann endete der Erste Weltkrieg?",
+      "text16": "Wann begann der Zweite Weltkrieg?",
+      "text17": "Wann begann der Zweite Weltkrieg?"
     }
   }
 }

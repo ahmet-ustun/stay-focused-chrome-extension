@@ -112,6 +112,25 @@
       "text12": "Quando ti vedo cercare ancora e ancora di aprire un sito web bloccato",
       "text13": "quando non impari la lezione e interrompi di nuovo il tuo lavoro",
       "text14": "La mia faccia quando blocco un sito web per te"
+    },
+    "questions": {
+      "text1": "Quanti mesi ci sono in un anno? (solo il numero)",
+      "text2": "Quanti giorni ci sono in una settimana? (solo il numero)",
+      "text3": "Quanti giorni ci sono in un anno? (solo il numero)",
+      "text4": "Quanti colori ci sono in un arcobaleno?",
+      "text5": "Quanti lati ha un triangolo? (solo il numero)",
+      "text6": "Quanto fa 2+2?",
+      "text7": "Quanto fa 10+15?",
+      "text8": "Quanto fa 10 x 9?",
+      "text9": "Quanto fa 1+1+1+1+1+1?",
+      "text10": "Quanto fa 2x2 + 1?",
+      "text11": "Quanto fa 123 - 33?",
+      "text12": "Quanto fa 10 x (5-3)?",
+      "text13": "Quanto fa 350 * 0?",
+      "text14": "Quando è iniziata la Prima Guerra Mondiale?",
+      "text15": "Quando è finita la Prima Guerra Mondiale?",
+      "text16": "Quando è iniziata la Seconda Guerra Mondiale?",
+      "text17": "Quando è iniziata la Seconda Guerra Mondiale?"
     }
   }
 }

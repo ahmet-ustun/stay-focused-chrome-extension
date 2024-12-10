@@ -112,6 +112,25 @@
       "text12": "When I see you trying again and again to open a blocked website",
       "text13": "when you don't learn the lesson and break your work again",
       "text14": "My face when I block a website for you"
+    },
+    "questions": {
+      "text1": "How many months do we have in a year? (the number only)",
+      "text2": "How many days do we have in a week? (the number only)",
+      "text3": "How many days are there in a year? (the number only)",
+      "text4": "How many colors are there in a rainbow?",
+      "text5": "How many sides does a triangle have? (the number only)",
+      "text6": "What is 2+2?",
+      "text7": "What is 10+15?",
+      "text8": "What is 10 x 9?",
+      "text9": "What is 1+1+1+1+1+1?",
+      "text10": "What is 2x2 + 1?",
+      "text11": "What is 123 - 33?",
+      "text12": "What is 10 x (5-3)?",
+      "text13": "What is 350 * 0?",
+      "text14": "When did World War I start?",
+      "text15": "When did World War I finish?",
+      "text16": "When did World War II start?",
+      "text17": "When did World War II start?"
     }
   }
 }

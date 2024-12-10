@@ -112,6 +112,25 @@
       "text12": "Engellenmiş bir web sitesini açmaya tekrar tekrar çalıştığını gördüğümde",
       "text13": "dersi öğrenmiyor ve tekrar işini bozuyorsun",
       "text14": "Senin için bir web sitesini engellediğimde yüzüm"
+    },
+    "questions": {
+      "text1": "Bir yılda kaç ay var? (sadece sayı)",
+      "text2": "Bir haftada kaç gün var? (sadece sayı)",
+      "text3": "Bir yılda kaç gün var? (sadece sayı)",
+      "text4": "Bir gökkuşağında kaç renk var?",
+      "text5": "Bir üçgenin kaç kenarı var? (sadece sayı)",
+      "text6": "2+2 nedir?",
+      "text7": "10+15 nedir?",
+      "text8": "10 x 9 nedir?",
+      "text9": "1+1+1+1+1+1 nedir?",
+      "text10": "2x2 + 1 nedir?",
+      "text11": "123 - 33 nedir?",
+      "text12": "10 x (5-3) nedir?",
+      "text13": "350 * 0 nedir?",
+      "text14": "Birinci Dünya Savaşı ne zaman başladı?",
+      "text15": "Birinci Dünya Savaşı ne zaman bitti?",
+      "text16": "İkinci Dünya Savaşı ne zaman başladı?",
+      "text17": "İkinci Dünya Savaşı ne zaman başladı?"
     }
   }
 }

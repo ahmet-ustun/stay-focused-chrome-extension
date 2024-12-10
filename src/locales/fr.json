@@ -112,6 +112,25 @@
       "text12": "Quand je te vois essayer encore et encore d'ouvrir un site web bloqué",
       "text13": "quand tu n'apprends pas la leçon et interromps encore ton travail",
       "text14": "Mon visage quand je bloque un site web pour toi"
+    },
+    "questions": {
+      "text1": "Combien y a-t-il de mois dans une année ? (le nombre uniquement)",
+      "text2": "Combien y a-t-il de jours dans une semaine ? (le nombre uniquement)",
+      "text3": "Combien y a-t-il de jours dans une année ? (le nombre uniquement)",
+      "text4": "Combien y a-t-il de couleurs dans un arc-en-ciel ?",
+      "text5": "Combien de côtés a un triangle ? (le nombre uniquement)",
+      "text6": "Combien font 2+2 ?",
+      "text7": "Combien font 10+15 ?",
+      "text8": "Combien font 10 x 9 ?",
+      "text9": "Combien font 1+1+1+1+1+1 ?",
+      "text10": "Combien font 2x2 + 1 ?",
+      "text11": "Combien font 123 - 33 ?",
+      "text12": "Combien font 10 x (5-3) ?",
+      "text13": "Combien font 350 * 0 ?",
+      "text14": "Quand a commencé la Première Guerre mondiale ?",
+      "text15": "Quand s'est terminée la Première Guerre mondiale ?",
+      "text16": "Quand a commencé la Seconde Guerre mondiale ?",
+      "text17": "Quand a commencé la Seconde Guerre mondiale ?"
     }
   }
 }
