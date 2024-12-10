@@ -11,12 +11,11 @@
     <unlock-page v-else-if="isLocked" v-on:unlock="handleUnlock" />
     <md-app v-else>
       <md-app-toolbar class="md-primary">
-        <span class="md-title">Stay Focused</span>
+        <span class="md-title">{{ $t('message.stayFocused') }}</span>
         <div class="md-toolbar-section-end">
           <md-switch v-model="active">
             {{ active ? $t('message.options.active') : $t('message.options.inactive') }}
           </md-switch>
-          <language-switcher />
         </div>
       </md-app-toolbar>
 
@@ -64,6 +63,8 @@
             <span class="md-list-item-text">{{ $t('message.options.about') }}</span>
           </md-list-item>
         </md-list>
+
+        <language-switcher />
       </md-app-drawer>
 
       <md-app-content>
@@ -160,10 +161,16 @@ export default {
 .md-drawer {
   width: min-content;
   max-width: calc(100vw - 125px);
+  display: flex;
+  flex-direction: column;
 }
 
 .page-container {
   height: 100%;
+}
+
+.md-list {
+    flex: 1;
 }
 
 /*/////////////*/
