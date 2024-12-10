@@ -13,7 +13,7 @@
         "enterPassword": "Enter Password",
         "wrongPassword": "Wrong Password!"
       },
-      "click": "{{ clicksLeft }} clicks to unlock"
+      "click": "clicks to unlock"
     },
     "blockItems": {
       "regexNote": "Note: If you're unfamiliar with Regex (Regular Expressions), you can skip this page.",

@@ -13,7 +13,7 @@
         "enterPassword": "Passwort eingeben",
         "wrongPassword": "Falsches Passwort!"
       },
-      "click": "{{ clicksLeft }} Klicks zum Entsperren"
+      "click": "Klicks zum Entsperren"
     },
     "blockItems": {
       "regexNote": "Hinweis: Wenn du mit Regex (Regulären Ausdrücken) nicht vertraut bist, kannst du diese Seite überspringen.",

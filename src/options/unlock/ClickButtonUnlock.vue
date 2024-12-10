@@ -7,7 +7,7 @@
           v-on:keydown.space.prevent
           class="md-raised md-accent"
           @click.native="handleClick"
-          >{{ $t("message.unlock.click", { clicksLeft }) }}
+          >{{ clicksLeft }} {{ $t("message.unlock.click") }}
         </md-button>
       </div>
     </div>

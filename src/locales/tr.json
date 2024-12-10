@@ -13,7 +13,7 @@
         "enterPassword": "Şifreyi Girin",
         "wrongPassword": "Yanlış şifre!"
       },
-      "click": "{{ clicksLeft }} tıklama ile kilidi aç"
+      "click": "tıklama ile kilidi aç"
     },
     "blockItems": {
       "regexNote": "Not: Regex (Düzenli İfadeler) ile tanışık değilseniz, bu sayfayı atlayabilirsiniz.",
