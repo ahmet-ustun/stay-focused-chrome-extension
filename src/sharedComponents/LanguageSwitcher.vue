@@ -19,7 +19,6 @@ export default {
 <style scoped>
 .language-select {
   padding: 5px;
-  margin-left: 16px;
   border-radius: 4px;
   border: 1px solid #ccc;
   background-color: white;
