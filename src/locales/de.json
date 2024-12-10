@@ -96,6 +96,22 @@
       "videoSites": "Videoseiten",
       "blockedByWord": "Wortblockierung",
       "blockedByRegex": "Blockiert mit Regex"
+    },
+    "images": {
+      "text1": "",
+      "text2": "Geh jetzt zurück zur Arbeit!",
+      "text3": "WAS machst du hier? Geh zur Arbeit",
+      "text4": "Hast du deine Lektion nicht richtig gelernt? Geh zur Arbeit",
+      "text5": "Los geht's!",
+      "text6": "Geh zur Arbeit oder tanze mit uns!",
+      "text7": "",
+      "text8": "",
+      "text9": "",
+      "text10": "Wenn du eine blockierte Website öffnest, statt zu arbeiten.",
+      "text11": "Wenn ich sehe, dass du versuchst, eine blockierte Website zu öffnen",
+      "text12": "Wenn ich sehe, dass du immer wieder versuchst, eine blockierte Website zu öffnen",
+      "text13": "wenn du die Lektion nicht lernst und wieder deine Arbeit unterbrichst",
+      "text14": "Mein Gesicht, wenn ich eine Website für dich blockiere"
     }
   }
 }

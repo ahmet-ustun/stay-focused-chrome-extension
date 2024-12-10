@@ -96,6 +96,22 @@
       "videoSites": "Video Sites",
       "blockedByWord": "Blocked Using a Word",
       "blockedByRegex": "Blocked Using Regex"
+    },
+    "images": {
+      "text1": "",
+      "text2": "Go Back to work now!",
+      "text3": "WAT are you doing here? Go to work",
+      "text4": "you didn't learn your lesson right? Go to work",
+      "text5": "Goooooo!",
+      "text6": "Go to work or dance with us!",
+      "text7": "",
+      "text8": "",
+      "text9": "",
+      "text10": "When you open a blocked website instead of working.",
+      "text11": "When I see you trying to open a blocked website",
+      "text12": "When I see you trying again and again to open a blocked website",
+      "text13": "when you don't learn the lesson and break your work again",
+      "text14": "My face when I block a website for you"
     }
   }
 }

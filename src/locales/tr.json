@@ -96,6 +96,22 @@
       "videoSites": "Video Siteleri",
       "blockedByWord": "Bir Kelime Kullanılarak Engellendi",
       "blockedByRegex": "Regex Kullanılarak Engellendi"
+    },
+    "images": {
+      "text1": "",
+      "text2": "Şimdi işe geri dön!",
+      "text3": "NE yapıyorsun burada? İşe git",
+      "text4": "Dersini doğru öğrenmedin mi? İşe git",
+      "text5": "Hadi ama!",
+      "text6": "İşe git veya bizimle dans et!",
+      "text7": "",
+      "text8": "",
+      "text9": "",
+      "text10": "Çalışmak yerine engellenmiş bir web sitesini açtığında.",
+      "text11": "Engellenmiş bir web sitesini açmaya çalıştığını gördüğümde",
+      "text12": "Engellenmiş bir web sitesini açmaya tekrar tekrar çalıştığını gördüğümde",
+      "text13": "dersi öğrenmiyor ve tekrar işini bozuyorsun",
+      "text14": "Senin için bir web sitesini engellediğimde yüzüm"
     }
   }
 }

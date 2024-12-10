@@ -96,6 +96,22 @@
       "videoSites": "Siti di Video",
       "blockedByWord": "Bloccato utilizzando una parola",
       "blockedByRegex": "Bloccato utilizzando Regex"
+    },
+    "images": {
+      "text1": "",
+      "text2": "Torna al lavoro ora!",
+      "text3": "COSA stai facendo qui? Vai al lavoro",
+      "text4": "Non hai imparato la tua lezione, vero? Vai al lavoro",
+      "text5": "Dai!",
+      "text6": "Vai al lavoro o balla con noi!",
+      "text7": "",
+      "text8": "",
+      "text9": "",
+      "text10": "Quando apri un sito web bloccato invece di lavorare.",
+      "text11": "Quando ti vedo cercare di aprire un sito web bloccato",
+      "text12": "Quando ti vedo cercare ancora e ancora di aprire un sito web bloccato",
+      "text13": "quando non impari la lezione e interrompi di nuovo il tuo lavoro",
+      "text14": "La mia faccia quando blocco un sito web per te"
     }
   }
 }
