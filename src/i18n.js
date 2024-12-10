@@ -27,6 +27,7 @@ const i18n = new VueI18n({
   messages,
 });
 
+// Watch for changes in the locale
 i18n.watchLocale = () => {
   i18n._vm.$watch('locale', (newLocale) => {
     localStorage.setItem('language', newLocale);
