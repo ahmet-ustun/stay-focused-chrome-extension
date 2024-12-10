@@ -1,5 +1,6 @@
 {
   "message": {
+    "stayFocused": "Stay Focused",
     "unlock": {
       "question": {
         "answerLabel": "Answer",
@@ -89,6 +90,10 @@
       "socialMediaShare": "Enjoy using Stay Focused? Share it with your friends!",
       "buyMeACoffee": "Love staying focused? Buy me a coffee to support updates and keep you on track!",
       "keepMeFocused": "Keep Me Focused"
+    },
+    "defaults": {
+      "socialMediaSites": "Social Media Sites",
+      "videoSites": "Video Sites"
     }
   }
 }

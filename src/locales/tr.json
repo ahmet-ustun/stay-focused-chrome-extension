@@ -1,5 +1,6 @@
 {
   "message": {
+    "stayFocused": "Odaklan",
     "unlock": {
       "question": {
         "answerLabel": "Cevap",
@@ -89,6 +90,10 @@
       "socialMediaShare": "Stay Focused kullanmaktan keyif alıyor musunuz? Arkadaşlarınızla paylaşın!",
       "buyMeACoffee": "Odaklanmayı seviyor musunuz? Güncellemeleri desteklemek ve sizi odakta tutmak için bana bir kahve ısmarlayın!",
       "keepMeFocused": "Beni Odakta Tut"
+    },
+    "defaults": {
+      "socialMediaSites": "Sosyal Medya Siteleri",
+      "videoSites": "Video Siteleri"
     }
   }
 }
