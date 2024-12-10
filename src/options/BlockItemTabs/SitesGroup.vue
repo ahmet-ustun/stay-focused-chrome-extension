@@ -2,7 +2,7 @@
   <div :class="['site-group', sitesGroup.groupEnabled ? '' : 'disabled']">
     <md-card>
       <md-card-header class="card-header">
-        <div class="md-title">{{ sitesGroup.groupName }}</div>
+        <div class="md-title">{{ $t(sitesGroup.groupName) }}</div>
         <md-switch
           class="enable-group-switch "
           v-model="sitesGroup.groupEnabled"
@@ -93,6 +93,7 @@ export default {
 
   .card-header {
     display: flex;
+    gap: 10px;
   }
 
   .md-list {
