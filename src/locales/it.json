@@ -84,7 +84,8 @@
       "button": {
         "unlock": "Sblocca",
         "addWebsite": "Aggiungi sito web"
-      }
+      },
+      "alreadyAdded": "Già aggiunto"
     },
     "shared": {
       "socialMediaShare": "Ti piace usare Stay Focused? Condividilo con i tuoi amici!",

@@ -42,7 +42,7 @@
           <md-badge
             v-else
             class="md-square md-primary"
-            md-content="Already Added"
+            :md-content="$t('message.popup.alreadyAdded')"
           />
         </div>
       </shared-card>

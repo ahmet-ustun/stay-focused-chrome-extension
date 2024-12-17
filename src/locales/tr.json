@@ -84,7 +84,8 @@
       "button": {
         "unlock": "Kilidi Aç",
         "addWebsite": "Web Sitesi Ekle"
-      }
+      },
+      "alreadyAdded": "Zaten Eklendi"
     },
     "shared": {
       "socialMediaShare": "Stay Focused kullanmaktan keyif alıyor musunuz? Arkadaşlarınızla paylaşın!",

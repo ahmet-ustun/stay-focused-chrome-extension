@@ -84,7 +84,8 @@
       "button": {
         "unlock": "Unlock",
         "addWebsite": "Add Website"
-      }
+      },
+      "alreadyAdded": "Already Added"
     },
     "shared": {
       "socialMediaShare": "Enjoy using Stay Focused? Share it with your friends!",
