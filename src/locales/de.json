@@ -75,6 +75,12 @@
         "contributing": "Interessiert an einer Mitarbeit?",
         "visitGithub": "Besuche unser Open-Source-GitHub-Repository.",
         "githubRepo": "GitHub-Repository"
+      },
+      "resetData": {
+        "title": "Bist du sicher, dass du die Daten zurücksetzen möchtest?",
+        "content": "Dadurch werden alle deine Einstellungen und Websites auf ihre ursprünglichen Werte zurückgesetzt.",
+        "confirm": "Ja",
+        "cancel": "Nein"
       }
     },
     "popup": {

@@ -75,6 +75,12 @@
         "contributing": "Katkıda bulunmak ister misiniz?",
         "visitGithub": "Açık kaynak GitHub depomuzu ziyaret edin.",
         "githubRepo": "GitHub Deposu"
+      },
+      "resetData": {
+        "title": "Verileri sıfırlamak istediğinizden emin misiniz?",
+        "content": "Bu, tüm ayarlarınızı ve web sitelerinizi varsayılan değerlerine geri döndürecektir.",
+        "confirm": "Evet",
+        "cancel": "Hayır"
       }
     },
     "popup": {

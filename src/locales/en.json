@@ -75,6 +75,12 @@
         "contributing": "Interested in contributing?",
         "visitGithub": "Visit our open-source GitHub repository.",
         "githubRepo": "Github Repository"
+      },
+      "resetData": {
+        "title": "Are you sure you want to reset the data?",
+        "content": "This will make all your settings and websites return to their initial values.",
+        "confirm": "Yes",
+        "cancel": "No"
       }
     },
     "popup": {

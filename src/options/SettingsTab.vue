@@ -146,10 +146,10 @@
     </shared-card>
     <md-dialog-confirm
       :md-active.sync="isResetButtonActive"
-      md-title="Are you sure you want to reset the data?"
-      md-content="This will make all your settings and websites return to their initial values."
-      md-confirm-text="Yes"
-      md-cancel-text="No"
+      :md-title="$t('message.options.resetData.title')"
+      :md-content="$t('message.options.resetData.content')"
+      :md-confirm-text="$t('message.options.resetData.confirm')"
+      :md-cancel-text="$t('message.options.resetData.cancel')"
       @md-cancel=""
       @md-confirm="onResetConfirm"
     />
